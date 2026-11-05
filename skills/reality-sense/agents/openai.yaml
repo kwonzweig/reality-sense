@@ -1,0 +1,4 @@
+interface:
+  display_name: "현실 감각"
+  short_description: "Assess practical evidence before recommending an option"
+  default_prompt: "Use $reality-sense to check whether the evidence supports this recommendation."
