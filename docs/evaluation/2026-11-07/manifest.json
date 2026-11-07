@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-07",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "ultra",
+  "host": "Codex native subagents",
+  "batches_per_arm": 5,
+  "responses_per_batch": 7,
+  "case_order": {
+    "a": "listed",
+    "b": "reversed",
+    "c": "listed",
+    "d": "reversed",
+    "e": "listed"
+  },
+  "baseline_commit": "d5fd2f0d1c44c4442827fa351c401e3f550e1c5a",
+  "baseline_skill_sha256": "ae7776ef005e5d591ee4a2a6214edb45d0ed7d1a36ab9554fd860597977b128c",
+  "candidate_final_skill_sha256": "9905b4d43ee216fbf8dd6908a21dff2aa724ae9ff1c574bdc92dda4a3d9d2e74",
+  "candidate_body_unchanged_after_response_runs": true,
+  "post_run_metadata_change": "Restored the explicit claim-assessment trigger; final metadata used for separate selection probe.",
+  "shared_authoring_guidance_sha256": {
+    "codex-skill-creator": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+    "superpowers-writing-skills": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe"
+  }
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "variant": "baseline",
+    "request_id": 1,
+    "select_reality_sense": true,
+    "other_skills": [],
+    "reason": "The user is deciding whether to try a course based on incomplete and mixed practical evidence."
+  },
+  {
+    "variant": "baseline",
+    "request_id": 2,
+    "select_reality_sense": false,
+    "other_skills": [],
+    "reason": "The user asks how much verification a small change warrants; the baseline does not explicitly cover proportional checking."
+  },
+  {
+    "variant": "baseline",
+    "request_id": 3,
+    "select_reality_sense": false,
+    "other_skills": [
+      "systematic-debugging"
+    ],
+    "reason": "The baseline does not explicitly cover feedback about agent judgment; systematic-debugging fits the recurring unexpected behavior."
+  },
+  {
+    "variant": "baseline",
+    "request_id": 4,
+    "select_reality_sense": false,
+    "other_skills": [],
+    "reason": "Direct translation does not call for assessing evidence, calibrating verification, or diagnosing judgment."
+  },
+  {
+    "variant": "baseline",
+    "request_id": 5,
+    "select_reality_sense": false,
+    "other_skills": [
+      "skill-creator",
+      "writing-skills"
+    ],
+    "reason": "This asks to author a skill; skill-creator covers creation and writing-skills covers evaluation of the authored behavior."
+  },
+  {
+    "variant": "baseline",
+    "request_id": 6,
+    "select_reality_sense": true,
+    "other_skills": [],
+    "reason": "The user asks whether evidence from one video supports a practical claim about an entire course."
+  },
+  {
+    "variant": "candidate",
+    "request_id": 1,
+    "select_reality_sense": true,
+    "other_skills": [],
+    "reason": "The user is deciding whether to try a course based on incomplete and mixed practical evidence."
+  },
+  {
+    "variant": "candidate",
+    "request_id": 2,
+    "select_reality_sense": true,
+    "other_skills": [],
+    "reason": "The candidate explicitly covers deciding how much checking a task warrants."
+  },
+  {
+    "variant": "candidate",
+    "request_id": 3,
+    "select_reality_sense": true,
+    "other_skills": [
+      "systematic-debugging"
+    ],
+    "reason": "The user asks to diagnose a recurring assistant judgment problem; systematic-debugging also fits the unexpected behavior, while Humanizer would fit a prose rewrite."
+  },
+  {
+    "variant": "candidate",
+    "request_id": 4,
+    "select_reality_sense": false,
+    "other_skills": [],
+    "reason": "Direct translation does not call for assessing evidence, calibrating verification, or diagnosing judgment."
+  },
+  {
+    "variant": "candidate",
+    "request_id": 5,
+    "select_reality_sense": false,
+    "other_skills": [
+      "skill-creator",
+      "writing-skills"
+    ],
+    "reason": "This asks to author a skill; skill-creator covers creation and writing-skills covers evaluation of the authored behavior."
+  },
+  {
+    "variant": "candidate",
+    "request_id": 6,
+    "select_reality_sense": true,
+    "other_skills": [],
+    "reason": "The user asks whether evidence from one video supports a practical claim about an entire course."
+  }
+]

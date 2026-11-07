@@ -1,4 +1,4 @@
 interface:
-  display_name: "현실 감각"
-  short_description: "Assess practical evidence before recommending an option"
-  default_prompt: "Use $reality-sense to check whether the evidence supports this recommendation."
+  display_name: "Practical Judgement"
+  short_description: "Weigh evidence, effort, and the criteria behind decisions"
+  default_prompt: "Use $reality-sense to decide what matters here and how much checking the decision warrants."
