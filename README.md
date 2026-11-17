@@ -2,13 +2,7 @@
 
 An agent skill for useful decisions in context, distributed as `reality-sense`.
 
-Practical Judgement groups guidance under established concepts:
-
-- **Resource rationality:** spend attention and effort in proportion to their likely benefit, including the costs of delay and complexity.
-- **Double-loop learning:** examine the criterion behind a poor decision and distinguish a faulty rule from a sound rule that was not applied.
-- **Evidence synthesis:** weigh observations, independent reports, adoption, and demonstrated capabilities against the user's actual needs.
-
-The [skill](skills/reality-sense/SKILL.md) contains the concise rules. Its [source notes](skills/reality-sense/references/concepts.md) explain the concepts and their relationship to existing skills. Repo authors follow [AGENTS.md](AGENTS.md).
+Practical Judgement groups guidance under established concepts. The [skill](skills/reality-sense/SKILL.md) contains the concise rules under each concept's name. Its [source notes](skills/reality-sense/references/concepts.md) explain the concepts and their relationship to existing skills. Repo authors follow [AGENTS.md](AGENTS.md).
 
 If you have permission to use the skill, copy the [skill folder](skills/reality-sense) into your project's `.agents/skills/` for Codex or `.claude/skills/` for Claude Code.
 
