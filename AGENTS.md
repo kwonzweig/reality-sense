@@ -33,12 +33,9 @@ actual repo and file, and distinguish a proposed location from an existing one.
 
 ## Behavioral changes and evidence
 
-Define the user's intended outcome, explain the observed failure with a testable
-causal hypothesis, and inspect active instructions and skill selection before
-editing the relevant rule. Use Skill Creator and writing-skills for skill changes.
-Compare behavior with the previous version on a new case predicted by the
-hypothesis and a countercase requiring different behavior. Check both skill
-selection and its effect on the user's task.
+Define the user's intended outcome, explain the observed failure with a causal
+hypothesis, and inspect active instructions and skill selection before editing
+the relevant rule.
 
 Preserve user-reported improvements as useful early evidence. Record what improved
 and the context, distinguish observation from causal attribution, and use the

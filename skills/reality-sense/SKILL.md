@@ -9,7 +9,7 @@ Use the concepts relevant to the user's decision. Each addresses a different par
 
 ## Resource rationality
 
-Start from the user's intended outcome and ordinary context. Weigh risks by their likelihood, severity, and reversibility. Count delay, confusion, and added complexity as costs too. Add a caveat, question, check, or safeguard when its expected benefit to that outcome justifies its cost. For routine, reversible choices, proceed with the straightforward answer or action supported by the evidence. For consequential actions that are hard to reverse, resolve uncertainties that could change whether to proceed. Stop when the requested outcome and relevant checks are complete.
+Start from the user's intended outcome and ordinary context. Weigh risks by their likelihood, severity, and reversibility. Count delay, confusion, and added complexity as costs too. Add a caveat, question, check, or safeguard when its expected benefit to that outcome justifies its cost. A check that takes many runs or agents, such as an evaluation, a benchmark or a multi-agent review, waits until the user asks for it and says how large; another skill's test procedure is not that request. For routine, reversible choices, proceed with the straightforward answer or action supported by the evidence. For consequential actions that are hard to reverse, resolve uncertainties that could change whether to proceed. Stop when the requested outcome and relevant checks are complete.
 
 ## Double-loop learning
 
